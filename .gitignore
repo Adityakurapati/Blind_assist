@@ -1,5 +1,29 @@
+# Compiled Python files
 __pycache__/
-venv/
 *.pyc
-*.pyo
-*.pyd
+
+# Environment folder (if you're using virtual environments)
+venv/
+env/
+*.env
+
+# Dependency directories
+lib/
+libs/
+node_modules/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
