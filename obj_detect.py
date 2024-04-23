@@ -6,7 +6,8 @@ import numpy as np
 from cvlib.object_detection import draw_bbox
 import threading
 
-url='http://192.168.46.15/1600x1200.jpg'
+# url='http://192.168.46.15/1600x1200.jpg'
+url='https://imgs.search.brave.com/iDas1dDk291tPfoWKGJY9JU6a6HD41krNICmcDzRQEU/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wZXRh/cGl4ZWwuY29tL2Fz/c2V0cy91cGxvYWRz/LzIwMjMvMDEvTTIt/TWF4LU1hY0Jvb2st/UHJvLVJldmlldy0x/LTgwMHg1MzQuanBl/Zw'
 im=None
 
 def run1():
